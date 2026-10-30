@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For You ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hearts"></div>
+
+<section class="screen active" id="welcome">
+  <div class="glow"></div>
+  <p class="eyebrow">A LITTLE SURPRISE FOR YOU ✨</p>
+  <h1>Happy Birthday,<br><span>My Bachu !</span> 💗</h1>
+  <p class="intro">Today is all about celebrating you and the happiness you bring into my life.</p>
+  <button onclick="showSection('memories')">Start the Celebration ✨</button>
+</section>
+
+<section class="screen" id="memories">
+  <div class="content">
+    <p class="eyebrow">OUR LITTLE MEMORIES 📸</p>
+    <h2>Beautiful Moments</h2>
+    <p class="sub">Every picture has a little story behind it. ❤️</p>
+    <div class="gallery">
+      <div class="card"><img src="photo1.jpeg" alt="Fast time"><span>fast time ❤️</span></div>
+      <div class="card"><img src="photo2.jpeg" alt="Beautiful"><span>Beautiful ✨</span></div>
+      <div class="card"><img src="photo3.jpeg" alt="World of My heart"><span>World of My heart 💕</span></div>
+      <div class="card"><img src="photo4.jpeg" alt="My Person"><span>My Person 🌸</span></div>
+      <div class="card"><img src="photo5.jpeg" alt="My World"><span>My World🌏</span></div>
+      <div class="card"><img src="photo6.jpeg" alt="Forever Together"><span>Forever Together ♾️</span></div>
+    </div>
+    <button onclick="showSection('message')">Read Your Special Message 💌</button>
+  </div>
+</section>
+
+<section class="screen" id="message">
+  <div class="message">
+    <p class="eyebrow">A SPECIAL MESSAGE FOR YOU 💌</p>
+    <h2>For Someone Special</h2>
+    <p>On this special day, I just want you to know how grateful I am to have someone as wonderful as you in my life.</p>
+    <p>Your smile, your kindness and the little moments we share make ordinary days feel a little more beautiful.</p>
+    <p>Today, I hope you receive all the happiness, love and beautiful memories you deserve. May this new year of your life bring you countless reasons to smile.</p>
+    <p class="gold">Happy Birthday, my bachu! 🎂<br>Stay happy, stay amazing and keep smiling always. ❤️</p>
+    <p class="extra"><b>I love your so much ✨💗</b></p>
+    <div class="big-hearts">♥　♡　♥　♡　♥</div>
+    <button onclick="showSection('welcome'); burst()">Replay Surprise 🔄</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
